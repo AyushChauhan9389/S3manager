@@ -1,14 +1,15 @@
-# S3Manager - Gallery Management with AWS S3
+# S3Manager - File Management Tool for AWS S3
 
-S3Manager is a powerful Python application designed to manage your image gallery using Amazon S3 for storage. It features database integration and thumbnail generation for efficient image organization and access.
+S3Manager is a powerful Python application designed for efficient file management using Amazon S3 storage. It provides a comprehensive set of tools for uploading, downloading, and organizing files in S3 buckets, along with local database integration for improved file tracking and management.
 
 ## Features
 
-- Image upload and management with AWS S3
-- Local database for quick access and metadata storage
-- Automatic thumbnail generation for optimized gallery browsing
-- Flexible configuration options
-- Utility functions for enhanced functionality
+- File upload and download operations with AWS S3
+- Local database for quick file metadata access and management
+- Support for various file types and formats
+- Efficient file organization and bucket management
+- Flexible configuration options for AWS and local settings
+- Utility functions for enhanced file operations
 
 ## Installation
 
@@ -49,7 +50,13 @@ Follow these steps to set up S3Manager on your local machine:
 
 ## Usage
 
-After installation, use the `main.py` script to interact with S3Manager. This interface allows you to upload images, generate thumbnails, and manage your gallery.
+After installation, use the `main.py` script to interact with S3Manager. This interface allows you to perform various file management operations such as:
+
+- Uploading files to S3 buckets
+- Downloading files from S3 buckets
+- Listing files and buckets
+- Organizing files within buckets
+- Managing file metadata
 
 For detailed usage instructions, refer to the documentation or comments within each module.
 
@@ -63,6 +70,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-If you have any questions, please open an issue in the GitHub repository.
+If you have any questions or need assistance, please open an issue in the GitHub repository.
 
-Happy gallery managing!
+Efficient S3 file management awaits!
