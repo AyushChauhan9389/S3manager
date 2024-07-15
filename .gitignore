@@ -1,0 +1,23 @@
+# Configuration
+config.py
+.env
+
+# Generated files
+thumbnails/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+gallery.db
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+
+# IDE specific files (optional, uncomment if needed)
+# .vscode/
+# .idea/

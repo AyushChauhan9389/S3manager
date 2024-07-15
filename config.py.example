@@ -1,0 +1,7 @@
+import os
+
+# S3 Configuration
+S3_BUCKET_NAME = os.environ.get('S3_BUCKET_NAME', 'your-bucket-name')
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', 'your-access-id')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY', 'your-access-key-secret')
+AWS_REGION = os.environ.get('AWS_REGION', 'Your bucket region')
