@@ -17,7 +17,7 @@ Follow these steps to set up S3Manager on your local machine:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/S3Manager.git
+   git clone https://github.com/AyushChauhan9389/S3manager.git
    cd S3Manager
    ```
 
